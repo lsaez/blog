@@ -1,0 +1,12 @@
+name: "blog_for_realsies"
+title: "Learning on the mind"
+description: |
+  Learning on the mind
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

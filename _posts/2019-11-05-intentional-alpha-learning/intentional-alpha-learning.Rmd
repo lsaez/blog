@@ -1,0 +1,63 @@
+---
+title: "Intentional Alphabet Learning in PreK: Developing More than Letter Names"
+description: |
+  Helping children "get ready to read" doesn't require a huge investment in helping children learn the alphabet in PreK. Read about 3 basic, but fundamental, ingredients for intentionally teaching children about the English alphabet for paving pre-reading success in Kindergarten. 
+author:
+  - name: Leilani Saez
+    url: {}
+date: 11-05-2019
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Can you read this? 
+
+***%V   2@?    *%%#!**
+
+The task is impossible without knowing what each symbol represents. However, if I tell you that % = o, it might be easier to “crack the code”. And, if I tell you that * = g, you might be able to decipher the message based on what you know about words that begin with go (the phrase is: *Got it? Good!*). So knowing a few symbols (“letters”) combined with background knowledge enabled you to “read” this “foreign language” text. 
+
+# Why teach children about the alphabet in PreK?
+There are two main advantages to introducing the alphabet to Prekindergarten children. First, it helps prepare children for reading development by establishing the “basic building blocks” used in word decoding. Children who enter Kindergarten with strong alphabet knowledge are more likely to become successful beginning readers (e.g., Adlof, Catts, & Lee, 2010). Second, it helps to them to connect with the printed world around them in ways that can stimulate their cognitive (attention, reasoning), language, fine motor, and emotional growth (Ehri, 1998). Children who learn how to connect what they hear and say with what they see and think/feel develop a motivating desire to: read print in entertaining or informational stories, write messages for expressing themselves, and connect concepts they know (e.g., linking the word STOP with their understanding of stop signs around town and in play with toys, as a signal to not move).
+
+# What about the English alphabet should be learned in PreK?
+
+•	**Letter Names**- to provide a label for the symbol written and the sound spoken (A)
+
+•	**Letter Sounds**- to provide a link between a letter’s spoken and written form (/a/).
+
+•	**LNS (Letter Name & Sound) Connections**- to provide a bridge between concepts children know and their literacy representations (when speaking, reading, writing).
+
+
+![my amazing figure](intentional-alpha-learning_files/A Apple.PNG)
+                           
+Research shows that learning in isolation (e.g., learning letter names or sounds by themselves) is less effective than connected, multi-skill learning (Piasta & Wagner, 2010). Just like how teaching children about how pedaling and steering are both used to ride a bike, learning how to use the alphabet is more effective when connected components are both taught. For example, children need to know a letter’s name (“A”), the sound(s) it makes (long sound ā or short sound â), and its connection to concepts they know (apple, Ana, Ash, ad, ants, axe- *notice that I selectively chose words that make the same /a/ sound to help organize your understanding; including words with both sounds at the same time can be confusing*). There’s an important reason for teaching letter sound and conceptual knowledge along with alphabet letter names.
+
+Teaching children letter names helps to make literacy functional (because we know what to call “it” when we see or write A). However, knowing a letter’s name is not enough to help word decoding emerge- the letter’s sound must be integrated with children’s understanding about its written form, or shape. So, knowing a letter’s name aids in the learning of its sound, and understanding how they are both connected to a child’s world (through its relevance to different concepts that begin with that alphabetic letter) helps to create a purpose and motivation for literacy learning. This combination “unlocks” literacy skill development in ways that benefit reading by laying the sight, sound, and knowledge foundation for future decoding. Children who don’t efficiently acquire these connections can begin kindergarten with delays in reading skill development that lead to persistent problems in reading (Sáez, Nese, Alonzo & Tindal, 2016).
+
+# How can alphabet knowledge be intentionally learned in PreK?
+
+•	**Meaningfully**: Begin with using words that are important to each child (e.g., names they know, short words that begin with the LNS Connection). Learning is more effective when it matters to the learner, and isn’t overwhelming (e.g., multi-syllabic words with lots of letters in them). See the “Deans for Impact” [report](https://deansforimpact.org/wp-content/uploads/2017/01/The_Science_of_Early_Learning.pdf) (2019), which briefly describes this, and other basic cognitive principles involved in early learning.
+
+•	**Simply**: Start with using CAPITAL LETTERS to help children learn how to identify and locate beginning letters (because capital letters are less visually confusing, and the letter that begins a word is easier to find than in the middle or end when children don’t yet have a clear understanding of word boundaries). Remember that in the early stages of alphabet learning, children are figuring out how to associate letter form, letter sound, and the connection to concepts/words they know (so that they understand how a shape and sound become written forms of the words we speak). As children are ready, lowercase forms and letters located in the middle or end of words can be focused on to add challenge, but helping children master letter form and sound identification remains the primary goal (later, in kindergarten, they will be taught how to playfully move around letters and substitute sounds to make different words, as well as master the lowercase and uppercase forms for all 26 letters in the English alphabet). Research has shown that knowledge of uppercase letters benefits the learning of lowercase letters (Turnbull, Bowles, Skibbe, Justice, & Wiggins, 2010); they provide an easy foundation from which children can mentally link more complicated lowercase letters (because they can look so different depending on the font).
+
+                               (PICTURE)
+
+•	**With Writing**: Multisensory learning helps to create multiple mental pathways for remembering, which can help children strengthen their development of letter sounds knowledge (Labat, Vallet, Magnan, & Ecalle, 2015). Integrating audio (sound) and visual (letter) information is effortful, so writing can help this linking become more familiar (Blomert & Froyen, 2010). Practice with writing letters can also strengthen learning beyond recognizing it in print alone by encouraging children’s motivation to use letters (which builds-in extra practice and stronger mastery) when they can “write it all by myself”. 
+                     
+
+•	**Repeatedly**: Memorizing the letter shape that “goes with” a particular sound is a big concept. More real-world examples of LNS Connections, and more frequently repeated identification practice opportunities increases children’s mastery of this fundamental language concept (DeKeyser, 1997), which is necessary for decoding words. This means noticing a LNS Connection multiple times a day (using different examples: apple, Ana, ad, ants, axe), multiple days within the week, multiple weeks across a month. In general, the better children understand how word reading “works”, the more instinctively they will be able to expand this knowledge to other letters (even letters not taught).
+
+                        (PICTURE)
+•	**With High-Quality Book Reading**: High quality reading (in which reading is interactive between the reader and child, and the book content is engaging and leads to new/deeper understandings) supports LNS Connecting in multiple ways. It helps children organize literacy skill development by facilitating their understanding about print concepts, such as left-to-right reading across a page (how reading happens), word boundaries (what is read), and how ideas are reflected in print (which forms the why people read: to learn information or enjoy stories that resonate with them). Book reading also expands vocabulary and knowledge as teachers and children co-create a story’s meaning (Hindman, Connor, Jewkes, & Morrison, 2008), which can expand the diversity of words that children for aiding LNS Connecting.
+
+•	**Using Intentional Language**: Speech, like action, focuses children’s attention. When teachers intentionally point out alphabet letters and sounds, they help to make connections clear and concrete for children. Explicit learning of alphabetic principles helps children more than letting them incidentally discover them (Castles, Rastle, & Nation, 2018). Helping children learn doesn’t have to be boring, and a teacher’s use of language can focus attention to learning goals quickly and with enthusiasm. For example, compare these two attempts at pointing out a LNS Connection: “We’re eating popcorn, and popcorn begins with the letter P! What sound do you hear when I say…popcorn?” versus “We’re eating popcorn! Pop! Pop! Pop! I loooove buttered popcorn! P is for popcorn, our letter this week.” *Notice that in the 2nd example, there’s extra (unnecessary) wording and no specific connection between the letter P, it’s /p/ sound, and the popcorn snack, even though the teacher emphasizes /p/ by repeating “pop”, and mentions that P was the letter for the week.* Children are less likely to learn the LNS Connection in the 2nd attempt because the teacher is less intentional in helping children clearly make the connection.
+
+ 
+# Take-home message: 
+With some basic intentional principles, PreK children can learn about the basic building blocks of word decoding, to give them a successful start to Kindergarten (and to developing solid literacy habits based on curiosity, interest, practice, and reasoning). PreK teachers who make learning LN, LS, and LNS Connections for 7 - 10 alphabet letters a priority across the year, can help to strengthen and positively shape children’s literacy foundations in developmentally appropriate ways that can “fit with” their regular practices. What matters most is the *quality*, not the *quantity*, of alphabet learning in PreK.
+
+

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Learning on the mind",
+    "description": "Welcome to our new blog, Learning on the mind. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2019-11-07",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-11-07T11:47:17-08:00"
+  },
+  {
+    "path": "posts/2019-11-05-intentional-alpha-learning/",
+    "title": "Intentional Alphabet Learning in PreK: Developing More than Letter Names",
+    "description": "Helping children \"get ready to read\" doesn't require a huge investment in helping children learn the alphabet in PreK. Read about 3 basic, but fundamental, ingredients for intentionally teaching children about the English alphabet for paving pre-reading success in Kindergarten.",
+    "author": [
+      {
+        "name": "Leilani Saez",
+        "url": {}
+      }
+    ],
+    "date": "2019-11-05",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-11-07T11:00:42-08:00"
+  },
+  {
+    "path": "posts/2019-11-05-patchwork-quilt/",
+    "title": "Patchwork Quilt Thinking to Enhance Kindergarten Transitions",
+    "description": "There is a gap between the different ways we assess children's literacy skills between Preschool and Kindergarten, which if bridged, could strengthen children's beginning reading development. Read about how \"patchwork quilt\" thinking can help to bridge that gap in policy and practice.",
+    "author": [
+      {
+        "name": "Leilani Saez",
+        "url": {}
+      }
+    ],
+    "date": "2019-11-05",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-11-07T11:06:29-08:00"
+  },
+  {
+    "path": "posts/2019-10-28-new-post/",
+    "title": "Kindergarten Readiness & Developing Self Regulation",
+    "description": "Developing \"self-regulation\" in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom.",
+    "author": [
+      {
+        "name": "Leilani Saez",
+        "url": {}
+      }
+    ],
+    "date": "2019-10-28",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-11-07T10:42:40-08:00"
+  }
+]

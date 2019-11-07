@@ -1,0 +1,5 @@
+---
+title: "Learning on the mind"
+site: distill::distill_website
+listing: posts
+---
