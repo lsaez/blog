@@ -31,8 +31,10 @@ There are two main advantages to introducing the alphabet to Prekindergarten chi
 
 •	**LNS (Letter Name & Sound) Connections**- to provide a bridge between concepts children know and their literacy representations (when speaking, reading, writing).
 
+```{r out.height="100px",out.width="200px",fig.align="center"}
+knitr::include_graphics("intentional-alpha-learning_files/Apple2.PNG")
+```
 
-![LNS Connection](intentional-alpha-learning_files/Apple2.PNG)
                            
 Research shows that learning in isolation (e.g., learning letter names or sounds by themselves) is less effective than [connected, multi-skill learning](https://ila.onlinelibrary.wiley.com/doi/pdf/10.1598/RRQ.45.1.2). Similar to teaching children about how pedaling and steering are pre-requisite skills needed to ride a bike, teaching children about the alphabet is more effective when learned with other pre-requisite word reading skills. For example, a basic building block for literacy is to teach children using a 3-part strategy: knowing a letter’s name (“A”), the sounds it makes (long sound ā or short sound â), and its letter-sound connection to concepts they already know (apple, Ana, Ash, ad, ants, axe- *notice that I used words that make the same /a/ sound; including words with both sounds at the same time when learning can be confusing*). 
 
@@ -55,7 +57,10 @@ Teaching children letter names helps to make literacy functional (because we kno
 
 •	**Using Intentional Language**: Speech, like action, focuses children’s attention. When teachers intentionally point out alphabet letters and sounds, they help to make connections clear and concrete. Explicit learning of alphabetic principles is [more helpful](https://journals.sagepub.com/doi/pdf/10.1177/1529100618772271) than incidental learning. Explicit teaching doesn’t have to be boring- it just has to be clear with the teacher using language that focuses attention to learning goals with enthusiasm. For example, compare the way two teachers point out a LNS Connection. Teacher 1: “We’re eating popcorn, and popcorn begins with the letter P! What sound do you hear when I say…PoPcorn?” Teacher 2: “We’re eating POPcorn! Pop! Pop! Pop! I loooove buttered popcorn! P is for popcorn, our letter this week.” *Notice that in the 2nd example, there’s extra (unnecessary) wording and no specific connection between the letter P, it’s /p/ sound, and the popcorn snack, even though the teacher emphasizes /p/ by repeating “pop”. Although she mentions that P is the letter for the week, this vaguely focuses children's attention to the learning goal.* Children are less likely to learn the P + /p/ are connected in the 2nd attempt because the teacher is less explicit and intentional.
 
-![Popcorn!](intentional-alpha-learning_files/popcorn.png)
+```{r out.height="250px",fig.align="center"}
+knitr::include_graphics("intentional-alpha-learning_files/popcorn.png")
+```
+
  
 # Take-home message: 
 With some basic intentional principles, PreK children can learn some basic building blocks of word reading, to give them a successful start to Kindergarten reading development by starting solid literacy habits based on curiosity, interest, practice, and reasoning. PreK teachers who make learning LN, LS, and LNS Connections for at least 7 - 10 alphabet letters a priority across the year, can help to strengthen and positively shape how well children later learn to read. What matters most is the *quality*, and not the *quantity*, of alphabet learning in PreK.
