@@ -1,13 +1,12 @@
 ---
 title: "Welcome to Learning on the mind"
 description: |
-  Welcome to our new blog, Learning on the mind. We hope you enjoy 
-  reading what we have to say!
+  Welcome to our new blog, Learning on the mind!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Leilani Sáez 
+    url: 
+    affiliation: Behavioral Research & Teaching, University of Oregon
+    affiliation_url: 
 date: 11-07-2019
 output:
   distill::distill_article:

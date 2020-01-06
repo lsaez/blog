@@ -6,7 +6,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-  <meta name="generator" content="radix" />
+  <meta name="generator" content="distill" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -19,39 +19,366 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Kindergarten Readiness &amp; Developing Self Regulation</title>
-  
-  <meta property="description" itemprop="description" content="Developing &quot;self-regulation&quot; in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom."/>
+  <title>Learning on the mind: Untitled</title>
   
   
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2019-10-28"/>
-  <meta property="article:created" itemprop="dateCreated" content="2019-10-28"/>
-  <meta name="article:author" content="Leilani Saez"/>
+  
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Kindergarten Readiness &amp; Developing Self Regulation"/>
+  <meta property="og:title" content="Learning on the mind: Untitled"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Developing &quot;self-regulation&quot; in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom."/>
   <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Learning on the mind"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Kindergarten Readiness &amp; Developing Self Regulation"/>
-  <meta property="twitter:description" content="Developing &quot;self-regulation&quot; in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom."/>
+  <meta property="twitter:title" content="Learning on the mind: Untitled"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Kindergarten Readiness & Developing Self Regulation"]},{"type":"character","attributes":{},"value":["Developing \"self-regulation\" in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Leilani Saez"]}]}]},{"type":"character","attributes":{},"value":["10-28-2019"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["radix::radix_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{},"value":[]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  
-  <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["new-post_files/bowser-1.9.3/bowser.min.js","new-post_files/distill-2.2.21/template.v2.js","new-post_files/jquery-1.11.3/jquery.min.js","new-post_files/webcomponents-2.0.0/webcomponents.js"]}
-  </script>
   <!--radix_placeholder_navigation_in_header-->
+  
+  <script type="application/javascript">
+  
+    window.headroom_prevent_pin = false;
+  
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+  
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+  
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+  
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+  
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+  
+  <style type="text/css">
+  
+  /* Theme (user-documented overrideables for nav appearance) */
+  
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #455a64;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .distill-site-nav a:hover {
+    color: white;
+  }
+  
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+  
+  .distill-site-header {
+  
+  }
+  
+  .distill-site-footer {
+  
+  }
+  
+  
+  /* Site Header */
+  
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+  
+  
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+  
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+  
+  .distill-site-header .title {
+    font-size: 18px;
+  }
+  
+  .distill-site-header .logo {
+    padding: 0;
+  }
+  
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+  
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+  
+  
+  
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+  
+  
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+  
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+  
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-dropdown-active {
+    display: block;
+  }
+  
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+  
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+  
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative;}
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  /* Site Footer */
+  
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Headroom */
+  
+  d-title {
+    padding-top: 6rem;
+  }
+  
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+  
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+  
+  .headroom--unpinned {
+    top: -100px;
+  }
+  
+  .headroom--pinned {
+    top: 0;
+  }
+  
+  </style>
+  
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -887,7 +1214,7 @@
   
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
-      $('.radix-site-header a[href]').each(function(i,val) {
+      $('.distill-site-header a[href]').each(function(i,val) {
         $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
       });
     }
@@ -927,10 +1254,6 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="new-post_files/jquery-1.11.3/jquery.min.js"></script>
-  <script src="new-post_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="new-post_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="new-post_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -942,63 +1265,39 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Kindergarten Readiness & Developing Self Regulation","description":"Developing \"self-regulation\" in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom.","authors":[{"author":"Leilani Saez","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-10-28T00:00:00.000-07:00","citationText":"Saez, 2019"}
+{"title":"Untitled","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Learning on the mind</a>
+</div>
+<div class="nav-right">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Kindergarten Readiness &amp; Developing Self Regulation</h1>
-<p><p>Developing “self-regulation” in kids is important for all ages, but especially during the Kindergarten transition. Read about some simple steps for encouraging self-regulation in your preschool classroom.</p></p>
+<h1>LICENSE.utf8.md</h1>
+
 </div>
 
-<div class="d-byline">
-  Leilani Saez  
-  
-<br/>10-28-2019
-</div>
 
 <div class="d-article">
-<h1 id="what-is-kindergarten-readiness">What is Kindergarten Readiness?</h1>
-<p>Increasingly, the importance of children beginning Kindergarten “ready to learn” is becoming much clearer, although views on “Kindergarten readiness” can vary widely, and only half of U. S. states have formal definitions to guide practice (IES REL Northwest, 2018). Thirteen years ago, the American Federation of Teachers (AFT) and the National Center for Learning Disabilities (NCLD) created a “Kindergarten Readiness Indicators <a href="https://www.aft.org/sites/default/files/t2k_schoolreadiness.pdf">Checklist</a>” (2006) that included 40 skills to be evaluated at fall, winter, and spring as an early attempt to provide guidance about the skills children need to develop in preparation for school. It focused on the development of the following main competencies (click the link above to learn more about each indicator):</p>
-<ul>
-<li>4 indicators of Expressive and Receptive Language</li>
-<li>9 indicators of Approaches to Learning and Cognition</li>
-<li>8 indicators of Social and Emotional Development</li>
-<li>9 indicators of Phonological Awareness and Print Knowledge</li>
-<li>7 indicators of Mathematics</li>
-<li>3 indicators of Physical Development</li>
-</ul>
-<p>In general, without the establishment of basic competencies prior to Kindergarten, children are at greater risk for poor outcomes in school because they are less capable of adapting to different expectations that they encounter (Egeland, Carlson, &amp; Sroufe, 1993). Learning in an elementary classroom is a different experience than Preschool and home-based environments, and it naturally involves some degree of adjustment as children develop as “student learners”. Although much debate surrounds the specific indicators that matter most (and readiness lists can vary widely in the indicators that they list), the above areas often form a basic view of readiness that considers the whole child beyond just academic knowledge.</p>
-<p>Because the Prekindergarten year precedes school entry, helping children become “Kindergarten ready” may also include the timely cultivation of “life skills” to buffer against home adversities that disadvantage their achievement and health (Fischella &amp; Kitzman, 2009), and facilitate their adjustment. For example, inherently part of preparing most children for Kindergarten involves helping them “learn how to learn” within a classroom setting (Rimm-Kaufman &amp; Pianta, 2000). Children need to be able to follow directions diffused to an entire class, learn specific academic knowledge and procedures with varying levels of assistance, cooperatively share classroom resources, successfully navigate the environment, and effectively self-manage (or regulate) their thoughts, feelings, and behaviors. How well they can behave in accordance with set rules not only influences their social standing with peers, but the quality of relationship with the teacher, feelings about one’s self, and classroom engagement, which can have long-term effects on their emergent school success (Goble, Eggum-Wilkens, Bryce, Foster, Hanish, Martin, &amp; Fabes, 2017). Thus, “life skill” self-regulation that enhances children’s ability to manage school complexity can also enable personal resilience for life (Nota, Soresi, &amp; Zimmerman, 2004). For example, the use of strategies to regulate one’s emotional well-being is associated with better coping of challenges (Tugade &amp; Fredrickson, 2007), something that regularly emerges inside and outside of the classroom.</p>
-<h1 id="what-is-self-regulation">What is Self-regulation?</h1>
-<p>Self-regulation involves the emerging capability of children to manage their emotions, attentional focus, physiological (body) responses, behavioral impulses, and cognitive processing for engaging in goal-directed activities (Rimm-Kaufman, Curby, Grimm, Nathanson, &amp; Brock, 2009). Even when children want to behave in a certain way, if they haven’t mastered control of their thoughts and feelings, they are vulnerable to mental overload and feelings of emotional overwhelm that can undermine their best intentions. According to Albert Bandura, our behaviors are based on internal goals (i.e., what we believe is acceptable), which shape how we control our thoughts, feelings, motivations, and behaviors (Bandura, 1991). In school, there are all kinds of external expectations for behavior that lead children to act in goal-directed ways: completing academic assignments to get good marks, making friends and working cooperatively with peers to gain acceptance, appropriately seeking help to get basic needs met (e.g., with learning, purchasing lunch, using the bathroom in time), and achieving attention from the teacher to feel valued. Therefore, strong self-regulation capabilities enable children to learn and effectively engage with complex (academic, social, emotional, and physical) information, varying conditions, and external expectations that all play a role in their classroom “learning”.</p>
-<p>Although temperament and cognitive processing differences influence the emergence of self-regulation through their effect on children’s reactivity (Rothbart, 2007), many aspects of Preschool learning can also influence it. For example, establishing clear classroom rules and routines; introducing activities; providing warm support; using explicit instruction, modeling, discussion, and practice techniques for skill-building can contribute to gains in self-regulated school readiness because they cultivate planning, problem solving, and intentional learning capacities (Bierman, Nix, Greenberg, Blair, &amp; Domitrovich, 2008).</p>
-<h1 id="how-can-self-regulation-kindergarten-readiness-co-develop">How can Self-regulation &amp; Kindergarten Readiness Co-develop?</h1>
-<p>The Office of Planning, Research, &amp; Evaluation (2019) has a helpful preschool self-regulation <a href="https://www.acf.hhs.gov/opre/research/project/toxic-stress-and-self-regulation-reports">tip sheet</a> for supporting the development of self-regulation, which I’ll summarize and expand upon below :</p>
-<h3 id="incorporate-intentional-ways-to-shape-healthy-social-emotional-management-for-growing-self-regulation"><strong>1. Incorporate intentional ways to shape healthy social-emotional management for growing self-regulation:</strong></h3>
-<p><strong>A. Build trusting, warm relationships.</strong> Self-regulation can’t effectively grow under the threat of fear, so focus on developing trust when you interact with the children in your class. Fear leads to quick, reactionary “fight, flight, or freeze” responding instead of deliberate choice-making, which underlies self-regulation. Become a co-regulation partner with children by helping them to manage their feelings (e.g., by “thinking aloud” with them, asking helpful questions, prompting beneficial strategies). Do small things (ask questions, spend time listening, remember information about their lives that is important to them) to learn about and bond with children in your class each day.</p>
-<p>In addition, monitor your own emotional, cognitive, and physiological state to model balanced functioning. For example, notice your level of stress, identify (without judgement) your stress “hot buttons”, and find soothing or proactive ways of dealing with them so you can be at your best in the classroom. The better regulated you are to help children “co-regulate,” the easier and more effectively you will help them learn how to self-manage how they feel, think, and do in your classroom.</p>
-<p><strong>B. Structure the classroom environment to be calm</strong> (yet engaging), <strong>fair and safe</strong> (to foster risk-taking), <strong>predictable</strong> (to enable routines and decrease uncertainty, which empowers independence), and <strong>positive</strong> (to validate children’s worth). This includes having an evidence-based plan or curriculum for effectively responding to children’s emotional needs that strengthens relationships, clarifies effective ways for children to think about their feelings and appropriate responding, and provides developmentally appropriate practice with “owning” their regulation to remain balanced (i.e., not overstimulated, emotionally out-of-control, or under-stimulated/bored).</p>
-<p><strong>C. Cultivate community where children can contribute to the success of everyone’s well-being.</strong> Give them responsibilities, rules/expectations, and opportunities to shine. Also, help children recover from disappointments, as well as reach out to others to help get their needs met. Part of this work involves building bridges with parents- communicate with them about your efforts to develop self-regulation (and give them ideas for how they can extend it at home), create in-class opportunities that enable them to participate in self-regulation practice, and clearly prioritize self-regulation like other developmental domains (in talking with other staff, others).</p>
-<h3 id="incorporate-intentional-ways-to-shape-critical-thinking-as-children-learn-readiness-skills-by-focusing-on-the-processes-involved-in-what-theyre-doing"><strong>2. Incorporate intentional ways to shape critical thinking as children learn readiness skills by focusing on the processes involved in what they’re doing:</strong></h3>
-<p><strong>A. Engage children in thought-provoking activities.</strong> Provide opportunities for children to stretch their imaginations, build perspective-taking, and add to their understanding about concepts. Child-centered play activities naturally cultivate these cognitive skills, but they can even be facilitated when strategically using basic worksheets, by intentionally helping children to “think beyond” the page. For example, when using a coloring sheet, tap into children’s imaginations (rather than have them simply color it) by asking questions, facilitate perspective-taking by prompting sharing of each other’s work, and expand background knowledge by discussing relevant information related to the worksheet (e.g., while coloring a snowman, talk about what snow is and different memories of experiencing snow).</p>
-<p><strong>B. Help children be active noticers.</strong> Although children can be observant, they may not know how to “connect the dots” to notice connections, which is an important skill in self-regulation. For example, knowing why or how something is linked to something else helps children analyze cause and effects. So, explain changes in <em>schedule</em> (e.g., “We need to eat snack early today because we’re taking a field-trip during our regular snack time.”), <em>setting</em> (e.g., “Can anyone find the change we made to our Wonder Wall? I took a vacation to Hawaii and found something really interesting to share!”), <em>feelings</em> (e.g., “Did you notice that he looks sad? Maybe you can ask him if he doesn’t feel like playing right now because he’s sad.”), and <em>tasks</em> (e.g., “It looks like when she put that block on the tower, it made the whole thing fall down. What do you think happened?”). Talking with children in this way helps them learn to focus their attention to what’s happening around them, including how things change (which benefits their understanding about how feelings can change, and how they can instigate changes in how they feel and what they do). Be sure to encourage non-judgmental noticing so that children practice making connections without evaluating whether they are good or bad.</p>
-<p><strong>C. Encourage children to become experts in how their minds and bodies work together to accomplish tasks.</strong> Point out where children seem to be putting their attention- is it on <em>how they feel</em> (physically or emotionally), <em>the activity</em> (maybe the teacher’s directions, a question they have, or something about the task), or <em>the environment</em> (a classmate disruption, an adult entering the room, sun shining through the window)- and help them make connections with what’s going on in their mind and body. Watch this 4-minute <a href="https://www.mindfulschools.org/resources/explore-mindful-resources/">video</a> of children explaining this mindfulness concept. How can they get help and take some control over what’s going on inside their body? In learning how to respond to what happens in their bodies and the environment, children become more adept at taking action to manage their physiological (e.g., hunger, warmth, comfort) and emotional needs to stay balanced/regulated.</p>
-<h3 id="summing-up">Summing Up</h3>
-<p>The development of self-regulation essentially helps children grow a set of life skills that can positively impact all other developmental domains associated with Kindergarten readiness (language, social-emotional, academic, and physical) because they enable children to self-manage their emotions using their thinking and behavior. Cultivating self-regulation in the classroom can go a long way toward creating a strong foundation in time for school. When children are cognitively or emotionally out of balance (e.g., over- or under-stimulated), they cannot behave or learn at their best. Like the “Goldilocks principle”, too much or too little can prevent learning from being “just right” (we’ll discuss this more in another blog post).</p>
-<h1 id="take-home-message">Take-Home Message:</h1>
-<p>Over time, a responsive preschool teacher can help children develop self-regulation by:</p>
-<ol type="a">
-<li><p>Helping children become aware of their current state (mind, body, &amp; heart), and labeling their experience (e.g., instead of “really, really mad”, teach children to state how they feel as “frustrated”, and to make connections with what caused the feeling)</p></li>
-<li><p>Intentionally teaching children how they can help themselves achieve calm (whether frustrated, sad, excited, or afraid)</p></li>
-<li><p>Supportively practicing and co-regulating the use of strategies that consistently return children to their unique “balance” point (what works for one child may not work for another)</p></li>
-</ol>
-<p>Increasing children’s awareness about how they’re doing, and what they can do to stay in balance for doing their best helps lay the foundation for self-regulation. Like other skills, self-regulated choices can become a habit when communicating needs, learning how to read, joining a peer group, or using scissors. And, with practice, children can become increasingly more competent and confident in how they manage their functioning in school (and life).</p>
+<p>The MIT License (MIT)</p>
+<p>Copyright (c) 2019 Leilani</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
