@@ -1,18 +1,18 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Learning on the mind",
-    "description": "Welcome to our new blog, Learning on the mind!",
+    "path": "posts/2019-12-05-patchwork-quilt/",
+    "title": "Patchwork Quilt Thinking to Enhance Kindergarten Transitions",
+    "description": "There is a gap between the ways we assess children's literacy skills in Preschool and Kindergarten. Read about how \"patchwork quilt\" thinking can help to bridge this gap in policy and practice.",
     "author": [
       {
-        "name": "Leilani Sáez",
+        "name": "Leilani Saez",
         "url": {}
       }
     ],
-    "date": "2019-11-07",
+    "date": "2019-12-05",
     "categories": [],
     "preview": {},
-    "last_modified": "2019-11-07T14:08:13-08:00"
+    "last_modified": "2020-01-06T14:04:32-08:00"
   },
   {
     "path": "posts/2019-11-05-intentional-alpha-learning/",
@@ -27,22 +27,7 @@
     "date": "2019-11-05",
     "categories": [],
     "preview": "posts/2019-11-05-intentional-alpha-learning/intentional-alpha-learning_files/Apple2.PNG",
-    "last_modified": "2020-01-06T13:55:09-08:00"
-  },
-  {
-    "path": "posts/2019-11-05-patchwork-quilt/",
-    "title": "Patchwork Quilt Thinking to Enhance Kindergarten Transitions",
-    "description": "There is a gap between the ways we assess children's literacy skills in Preschool and Kindergarten. Read about how \"patchwork quilt\" thinking can help to bridge this gap in policy and practice.",
-    "author": [
-      {
-        "name": "Leilani Saez",
-        "url": {}
-      }
-    ],
-    "date": "2019-11-05",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2019-12-19T12:10:32-08:00"
+    "last_modified": "2020-01-06T13:55:11-08:00"
   },
   {
     "path": "posts/2019-10-28-self reg/",
